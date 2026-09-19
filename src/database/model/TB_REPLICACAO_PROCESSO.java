@@ -3,7 +3,7 @@ package database.model;
 public class TB_REPLICACAO_PROCESSO {
 
     private Long id;
-    private String nome;
+    private String processo;
     private String descricao;
     private Boolean habilitado;
 
@@ -18,12 +18,12 @@ public class TB_REPLICACAO_PROCESSO {
         this.id = id;
     }
 
-    public String getNome() {
-        return nome;
+    public String getProcesso() {
+        return processo;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setProcesso(String processo) {
+        this.processo = processo;
     }
 
     public String getDescricao() {
@@ -46,7 +46,7 @@ public class TB_REPLICACAO_PROCESSO {
     public String toString() {
         return "TB_REPLICACAO_PROCESSO{" +
                 "id=" + id +
-                ", nome='" + nome + '\'' +
+                ", nome='" + processo + '\'' +
                 ", descricao='" + descricao + '\'' +
                 ", habilitado=" + habilitado +
                 '}';
